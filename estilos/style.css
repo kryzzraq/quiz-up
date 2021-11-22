@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "retro";
+    src: url("fonts/ALBAS___.TTF");
+}
+@font-face {
+    font-family: "cuerpo";
+    src: url("fonts/GistLight.otf");
+}
+*{
+    box-sizing: border-box;
+    font-family: cuerpo;
+    font-size: 13px;
+}
+body{
+    background-image: url("background/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border:1px solid transparent;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+
+}
+#contenedor{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10vh auto;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    border: 2px solid steelblue;
+}
+#contenido{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+#contenido1, #contenido2, #contenido4{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#contenido2, #contenido3, #contenido4{
+    height: 150px;
+    margin-top: 0px;
+}
+#contenido4{
+    margin-top: 40px;
+}
+#tablaRecords{
+    margin-right: 40px;
+}
+#funcionalidad{
+    width: 300px;
+    text-align: center;
+    padding:10px;
+}
+#funcion{
+    margin-top: 3px;
+}
+span{
+    text-align: center;
+    font-family: retro;
+    font-size: 60px;
+}
+#records{
+    font-size: 20px;
+}
+#usuario{
+    text-align: center;
+    margin: 0 auto;
+}
+#usu{
+    font-size: 20px;
+}
+button, #botones{
+    margin: 2px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 3px 10px;
+    border: 0;
+    border: 2px solid steelblue;
+}
+button:hover, #botones:hover, #select:focus{
+    background-color: rgba(224,224,188,0.4);
+}
+#dFrm{
+    padding: 1px 10px;
+}
+#respuesta,#pregunta, select{
+    background-color:rgba(255,255,255,0.6);
+    border: 1px solid steelblue;
+    border-radius: 4px;
+    width: 180px;
+}
+#pregunta{
+    width: 350px;
+}
+select{
+    width: 40px;
+}
